@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body background="image/pic.jpg">
+    <form action="index.php" method="$POST">
+        <h1>Registration Form</h1>
+
+        <div class="form">
+
+            <div class="fname">
+                <label for="fname">First Name: </label>
+                <input id="fname" placeholder="Enter First Name" name="fname" required>
+            </div>
+            <div class="lname">
+                <label for="lname">Last Name: </label>
+                <input id="lname" placeholder="Enter Last Name" name="lname" required>
+            </div>
+            <!--First line two box end-->
+
+
+            <div class="gmail">
+                <label for="gmail">Mail Id: </label>
+                <input id="gmail" type="gmail" placeholder="Enter Mail Id" name="gmail" required>
+            </div>
+            <!--2nd line box end-->
+
+            <div class="phoneno">
+                <label for="phoneno">Phone Number: </label>
+                <select name="" id="phoneno" required>
+                    <option value="">+966</option>
+                    <option value="" selected>+880</option>
+                    <option value="">+92</option>
+                    <option value="">+91</option>
+                    <option value="">+98</option>
+                    <option value="">+972</option>
+                    <option value="">+60</option>
+                    <option value="">+61</option>
+                    <option value="">+1</option>
+                    <option value="">+81</option>
+                    <option value="">+49</option>
+                    <option value="">+44</option>
+                </select>
+                <input id="phoneno" type="number" placeholder="Enter your phone no" name="phoneno"required>
+            </div>
+            <!--third line box end-->
+
+            <div>
+                <label for="varsity">College/University: </label>
+                <input id="varsity" type="text" placeholder="Enter University Name" name="varsity" required>
+
+            </div>
+
+            <div class="gender">
+                <label for="gender">Gender: </label>
+                <select name="gender" id="gender" required>
+                    <option value="" selected>Gender</option>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                    <option value="">Others</option>
+                </select>
+            </div>
+
+            <div class="textarea">
+                <label for="area">Comment Below: </label>
+                <br>
+                <textarea id="area" name="" id="area" cols="43" rows="5"
+                    placeholder="My name is x. my hobby is travelling.I want to be travel around the world........."name="textarea"required></textarea>
+            </div>
+
+            <div class="submit">
+                <strong><button id="submit" value="submit">Submit</button></strong>
+            </div>
+
+
+        </div>
+
+    </form>
+</body>
+
+</html>
